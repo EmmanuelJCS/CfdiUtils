@@ -15,7 +15,8 @@ class Pago extends AbstractElement
     {
         return [
         'pagos20:DoctoRelacionado',
-        'pagos20:ImpuestosP', ];
+        'pagos20:ImpuestosP',
+        ];
     }
 
     public function addDoctoRelacionado(array $attributes = []): DoctoRelacionado

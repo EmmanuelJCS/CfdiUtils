@@ -15,7 +15,8 @@ class Pagos extends AbstractElement
     {
         return [
         'pagos20:Totales',
-        'pagos20:Pago', ];
+        'pagos20:Pago',
+        ];
     }
 
     public function getFixedAttributes(): array
